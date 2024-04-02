@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ingredients_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="48dp"
+        android:lineSpacingExtra="2sp"
+        android:text="ИНГРЕДИЕНТЫ"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ingredients_list"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="48dp"
+        android:lineSpacingExtra="2sp"
+        android:text="яйца: 2шт&#xA;сахар: 60г&#xA;мука: 50г&#xA;сливочное масло: 60г&#xA;горький шоколад 75%: 90г"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingredients_title" />
+
+    <TextView
+        android:id="@+id/extra_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="48dp"
+        android:lineSpacingExtra="2sp"
+        android:text="ДОПОЛНИТЕЛЬНО"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingredients_list" />
+
+    <TextView
+        android:id="@+id/extra_list"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:lineSpacingExtra="2sp"
+        android:text="какао-порошок, мороженое"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/extra_title" />
+
+    <TextView
+        android:id="@+id/steps_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="48dp"
+        android:lineSpacingExtra="2sp"
+        android:text="ШАГИ ПРИГОТОВЛЕНИЯ"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/extra_list" />
+
+    <TextView
+        android:id="@+id/steps_list"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="48dp"
+        android:lineSpacingExtra="2sp"
+        android:text="1. Измельчите сахар до состояния пудры.&#xA;&#xA;2. Растопите сливочное масло и шоколад в сотейнике, на водяной бане или в микроволновой печи.&#xA;&#xA;3. В другой ёмкости смешайте сахарную пудру и яйца. Добавьте муку и перемешайте.&#xA;&#xA;4. В полученную смесь добавьте масло и шоколад и размешайте до однородности.&#xA;&#xA;5. Распределите тесто по силиконовым формам и выпекайте 6–7 минут при 175°C."
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/steps_title" />
+
+    <Button
+        android:id="@+id/steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#FBBB25"
+        android:lineSpacingExtra="2sp"
+        android:text="ПРОСЛУШАТЬ РЕЦЕПТ"
+        android:textColor="#000000"
+        android:textColorLink="#FBBB25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/steps_list" />
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="48dp"
+        android:lineSpacingExtra="2sp"
+        android:text="Готовые фонданы должны покрыться корочкой, а внутри оставаться жидкими. Можете использовать какао для украшения десерта. Горячие фонданы отлично сочетаются с мороженым. Приятного аппетита!"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/steps" />
+</androidx.constraintlayout.widget.ConstraintLayout>
