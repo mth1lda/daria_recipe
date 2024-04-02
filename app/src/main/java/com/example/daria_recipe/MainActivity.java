@@ -28,14 +28,16 @@ public class MainActivity extends AppCompatActivity {
         });
 
         steps = findViewById(R.id.steps);
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.chocolatefondant);
+
+        final MediaPlayer mp = MediaPlayer.create(this, R.raw.chocolatefondant);
 
         steps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                mediaPlayer.start();
+                if (mp.isPlaying()) mp.pause(); else mp.start();
             }
         });
+
     }
 }
