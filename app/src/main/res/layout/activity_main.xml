@@ -104,10 +104,17 @@
                 android:layout_marginStart="48dp"
                 android:layout_marginTop="28dp"
                 android:layout_marginEnd="48dp"
-                android:layout_marginBottom="48dp"
+
                 android:lineSpacingExtra="2sp"
                 android:text="Готовые фонданы должны покрыться корочкой, а внутри оставаться жидкими. Можете использовать какао для украшения десерта. Горячие фонданы отлично сочетаются с мороженым. Приятного аппетита!"
                 android:textSize="18sp" />
+
+            <ImageView
+                android:src="@drawable/chocolatefondant"
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:layout_marginTop="28dp" />
+<!--            android:layout_marginBottom="48dp"-->
 
         </LinearLayout>
     </ScrollView>
