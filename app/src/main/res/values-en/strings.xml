@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">CHOCOLATE FONDANT</string>
     <string name="ingredients_title">INGREDIENTS</string>
-    <string name="ingredients_list">2 eggs&#xA;60g sugar&#xA;50g flour&#xA;60g butter&#xA;90g dark chocolate 75%</string>
+    <string name="ingredients_list">2 eggs\n60g sugar\n50g flour\n60g butter\n90g dark chocolate 75%</string>
     <string name="extra_title">EXTRA INGREDIENTS</string>
     <string name="extra_list">cocoa powder and ice-cream to serve</string>
     <string name="steps_title">STEPS</string>
-    <string name="steps_list">1. Grind the sugar to a powder.&#xA;&#xA;2. Melt butter and chocolate either by using a water bath or the microwave.&#xA;&#xA;3. Mix eggs and sugar powder in another dish. Mix with flour.&#xA;&#xA;4. Add the melted butter and chocolate to the mixture. Blend all ingredients until they are smooth.&#xA;&#xA;5. Divide the mixture between the forms. Cook the dessert in the oven at 175°C for 6–7 minutes.</string>
+    <string name="steps_list">1. Grind the sugar to a powder.\n\n2. Melt butter and chocolate either by using a water bath or the microwave.\n\n3. Mix eggs and sugar powder in another dish. Mix with flour.\n\n4. Add the melted butter and chocolate to the mixture. Blend all ingredients until they are smooth.\n\n5. Divide the mixture between the forms. Cook the dessert in the oven at 175°C for 6–7 minutes.</string>
     <string name="steps">LISTEN TO THE RECIPE (RU)</string>
     <string name="tip">Cooked fondant should be crusted and inside should remain liquid. You can use cocoa powder to decorate the dessert. Hot fondant goes great with ice cream. Bon appetit!</string>
 </resources>

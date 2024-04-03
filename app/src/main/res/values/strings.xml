@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">daria_recipe</string>
     <string name="ingredients_title">ingredients</string>
-    <string name="ingredients_list">2 eggs&#xA;60g sugar&#xA;50g flour&#xA;60g butter&#xA;90g dark chocolate 75%&#xA;</string>
+    <string name="ingredients_list">2 eggs\n60g sugar\n50g flour\n60g butter\n90g dark chocolate 75%</string>
     <string name="extra_title">extra ingredients</string>
     <string name="extra_list">cocoa powder and ice-cream to serve</string>
     <string name="steps_title">steps</string>
-    <string name="steps_list">grind the sugar to a powder.&#xA;&#xA;2. melt butter and chocolate either by using a water bath or the microwave.&#xA;&#xA;3. mix eggs and sugarpowder in another dish. Mix with flour.&#xA;&#xA;4. add the melted butter and chocolate to the mixture. blend all ingredients until they are smooth.&#xA;&#xA;5. divide the mixture between the forms. cook the dessert in the oven at 175°C for 6–7 minutes.</string>
+    <string name="steps_list">1. grind the sugar to a powder.\n\n2. melt butter and chocolate either by using a water bath or the microwave.\n\n3. mix eggs and sugar powder in another dish. Mix with flour.\n\n4. add the melted butter and chocolate to the mixture. blend all ingredients until they are smooth.\n\n5. divide the mixture between the forms. cook the dessert in the oven at 175°C for 6–7 minutes.</string>
     <string name="steps">listen</string>
     <string name="tip">cooked fondant should be crusted and inside should remain liquid. you can use cocoa powder to decorate the dessert. hot fondant goes great with ice cream. bon appetit!</string>
 </resources>
